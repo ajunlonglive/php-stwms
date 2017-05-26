@@ -1,2 +1,2 @@
 # phpext
-PHP Extension,using C language development
+PHP Extension for php 7.0,using C language development
