@@ -1,0 +1,6 @@
+#!/bin/bash
+make clean &>/dev/null
+echo yes | rm EXPERIMENTAL CREDITS ac*.m4 Makefile* configure* config.s* config.h* config.g* config.log config.nice install-sh libtool ltmain.sh missing mkinstalldirs *.loT run-tests.php &>/dev/null
+rm -rf build *.cache .deps .gitignore &>/dev/null
+rmdir include modules &>/dev/null
+
